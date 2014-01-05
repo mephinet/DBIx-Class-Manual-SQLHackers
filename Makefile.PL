@@ -5,7 +5,7 @@ use 5.006;
 
 use inc::Module::Install '1.01';
 
-all_from 'lib/DBIx/Class/Manual/SQLHackers.pod';
+all_from 'lib/DBIx/Class/Manual/SQLHackers.pm';
 
 homepage 'http://dbix-class.org/manual/';
 resources 'IRC'         => 'irc://irc.perl.org/#dbix-class';
